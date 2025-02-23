@@ -11,5 +11,5 @@ pub fn main() !void {
     var it = std.mem.split(u8, user_input, " ");
     const command = it.next().?;
     stdout.print("{s}: command not found\n", .{command}) catch {};
-
-
+    
+}
